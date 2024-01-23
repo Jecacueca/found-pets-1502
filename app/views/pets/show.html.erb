@@ -1,0 +1,7 @@
+<h1><%= @pet.name %></h1>
+<p><%= @pet.address %></p>
+<p><%= @pet.species %></p>
+<p><%= @pet.found_on %></p>
+
+<%= link_to "Edit pet", pet_edit_path(@pet) %>
+<%= link_to "back", pets_path %>
